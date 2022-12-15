@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NnjLHFQgiRQoGJxrfsbG3M2crV3RpTU2d63KnY9PAhVqogke4u5YrtiLe4cKw2n9rAUH42l+dJFKf66EI8MsEA==",
+  "dgSpecHash": "a8DfiwucCUhJ5YUXViOouqb+yOFFyKMNAfbqE+h57yWZqU6nPZWkx2KDD4QmX08Ew/eOI9c6ZQTUSkIYgbz92A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Elvira Elena\\learn-winforms-3\\YZCalculatorApp\\YZCalculatorApp.csproj",
+  "projectFilePath": "C:\\Users\\Elvira Elena\\Winform_calculator\\YZCalculatorApp\\YZCalculatorApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

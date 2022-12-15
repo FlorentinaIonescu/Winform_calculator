@@ -39,10 +39,10 @@
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.buttonZero = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
+            this.buttonDivision = new System.Windows.Forms.Button();
+            this.buttonMultiplication = new System.Windows.Forms.Button();
+            this.buttonSubtraction = new System.Windows.Forms.Button();
+            this.buttonAdditionEquals = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CalculatorScreen
@@ -217,50 +217,53 @@
             this.buttonZero.UseVisualStyleBackColor = false;
             this.buttonZero.Click += new System.EventHandler(this.NumberButton_Click);
             // 
-            // button11
+            // buttonDivision
             // 
-            this.button11.Font = new System.Drawing.Font("Cascadia Code", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button11.Location = new System.Drawing.Point(292, 61);
-            this.button11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(105, 68);
-            this.button11.TabIndex = 11;
-            this.button11.Text = "/";
-            this.button11.UseVisualStyleBackColor = true;
+            this.buttonDivision.Font = new System.Drawing.Font("Cascadia Code", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonDivision.Location = new System.Drawing.Point(292, 61);
+            this.buttonDivision.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.buttonDivision.Name = "buttonDivision";
+            this.buttonDivision.Size = new System.Drawing.Size(105, 68);
+            this.buttonDivision.TabIndex = 11;
+            this.buttonDivision.Text = "/";
+            this.buttonDivision.UseVisualStyleBackColor = true;
+            this.buttonDivision.Click += new System.EventHandler(this.buttonDivision_Click);
             // 
-            // button12
+            // buttonMultiplication
             // 
-            this.button12.Font = new System.Drawing.Font("Cascadia Code", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button12.Location = new System.Drawing.Point(292, 150);
-            this.button12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(105, 68);
-            this.button12.TabIndex = 12;
-            this.button12.Text = "x";
-            this.button12.UseVisualStyleBackColor = true;
+            this.buttonMultiplication.Font = new System.Drawing.Font("Cascadia Code", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonMultiplication.Location = new System.Drawing.Point(292, 150);
+            this.buttonMultiplication.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.buttonMultiplication.Name = "buttonMultiplication";
+            this.buttonMultiplication.Size = new System.Drawing.Size(105, 68);
+            this.buttonMultiplication.TabIndex = 12;
+            this.buttonMultiplication.Text = "x";
+            this.buttonMultiplication.UseVisualStyleBackColor = true;
+            this.buttonMultiplication.Click += new System.EventHandler(this.buttonMultiplication_Click);
             // 
-            // button13
+            // buttonSubtraction
             // 
-            this.button13.Font = new System.Drawing.Font("Cascadia Code", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button13.Location = new System.Drawing.Point(292, 237);
-            this.button13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(105, 68);
-            this.button13.TabIndex = 13;
-            this.button13.Text = "-";
-            this.button13.UseVisualStyleBackColor = true;
+            this.buttonSubtraction.Font = new System.Drawing.Font("Cascadia Code", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonSubtraction.Location = new System.Drawing.Point(292, 237);
+            this.buttonSubtraction.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.buttonSubtraction.Name = "buttonSubtraction";
+            this.buttonSubtraction.Size = new System.Drawing.Size(105, 68);
+            this.buttonSubtraction.TabIndex = 13;
+            this.buttonSubtraction.Text = "-";
+            this.buttonSubtraction.UseVisualStyleBackColor = true;
+            this.buttonSubtraction.Click += new System.EventHandler(this.buttonSubtraction_Click);
             // 
-            // button14
+            // buttonAdditionEquals
             // 
-            this.button14.Font = new System.Drawing.Font("Cascadia Code", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button14.Location = new System.Drawing.Point(206, 325);
-            this.button14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(190, 68);
-            this.button14.TabIndex = 14;
-            this.button14.Text = "+ / =";
-            this.button14.UseVisualStyleBackColor = true;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
+            this.buttonAdditionEquals.Font = new System.Drawing.Font("Cascadia Code", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.buttonAdditionEquals.Location = new System.Drawing.Point(206, 325);
+            this.buttonAdditionEquals.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.buttonAdditionEquals.Name = "buttonAdditionEquals";
+            this.buttonAdditionEquals.Size = new System.Drawing.Size(190, 68);
+            this.buttonAdditionEquals.TabIndex = 14;
+            this.buttonAdditionEquals.Text = "+ / =";
+            this.buttonAdditionEquals.UseVisualStyleBackColor = true;
+            this.buttonAdditionEquals.Click += new System.EventHandler(this.buttonAdditionEquals_Click);
             // 
             // Form1
             // 
@@ -268,10 +271,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(418, 407);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
+            this.Controls.Add(this.buttonAdditionEquals);
+            this.Controls.Add(this.buttonSubtraction);
+            this.Controls.Add(this.buttonMultiplication);
+            this.Controls.Add(this.buttonDivision);
             this.Controls.Add(this.buttonZero);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
@@ -284,6 +287,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.CalculatorScreen);
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "YZCalculator";
             this.ResumeLayout(false);
@@ -304,10 +308,10 @@
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button buttonZero;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button buttonDivision;
+        private System.Windows.Forms.Button buttonMultiplication;
+        private System.Windows.Forms.Button buttonSubtraction;
+        private System.Windows.Forms.Button buttonAdditionEquals;
     }
 }
 

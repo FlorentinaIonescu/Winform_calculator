@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Elvira Elena\\learn-winforms-3\\YZCalculatorApp\\YZCalculatorApp.csproj": {}
+    "C:\\Users\\Elvira Elena\\Winform_calculator\\YZCalculatorApp\\YZCalculatorApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Elvira Elena\\learn-winforms-3\\YZCalculatorApp\\YZCalculatorApp.csproj": {
+    "C:\\Users\\Elvira Elena\\Winform_calculator\\YZCalculatorApp\\YZCalculatorApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Elvira Elena\\learn-winforms-3\\YZCalculatorApp\\YZCalculatorApp.csproj",
+        "projectUniqueName": "C:\\Users\\Elvira Elena\\Winform_calculator\\YZCalculatorApp\\YZCalculatorApp.csproj",
         "projectName": "YZCalculatorApp",
-        "projectPath": "C:\\Users\\Elvira Elena\\learn-winforms-3\\YZCalculatorApp\\YZCalculatorApp.csproj",
+        "projectPath": "C:\\Users\\Elvira Elena\\Winform_calculator\\YZCalculatorApp\\YZCalculatorApp.csproj",
         "packagesPath": "C:\\Users\\Elvira Elena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Elvira Elena\\learn-winforms-3\\YZCalculatorApp\\obj\\",
+        "outputPath": "C:\\Users\\Elvira Elena\\Winform_calculator\\YZCalculatorApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Elvira Elena\\AppData\\Roaming\\NuGet\\NuGet.Config",

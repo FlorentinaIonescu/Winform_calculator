@@ -35,7 +35,95 @@ namespace YZCalculatorApp
             }
         }
 
-        private void button14_Click(object sender, EventArgs e)
+
+
+
+
+        private void buttonDivision_Click(object sender, EventArgs e)
+        {
+            if (_Operation == ' ')
+            {
+                _Operation = '/';
+                _Buffer = decimal.Parse(CalculatorScreen.Text);
+                CalculatorScreen.Text = "0.";
+            }
+            else
+            {
+
+                decimal currentValue = decimal.Parse(CalculatorScreen.Text);
+
+                CalculatorScreen.Text = _Operation switch
+                {
+                    '+' => (_Buffer + currentValue).ToString(),
+                    '-' => (_Buffer - currentValue).ToString(),
+                    'x' => (_Buffer * currentValue).ToString(),
+                    '/' => (_Buffer / currentValue).ToString(),
+                    _ => "0."
+                };
+
+                _Buffer = 0;
+                _Operation = ' ';
+
+            }
+        }
+
+        private void buttonMultiplication_Click(object sender, EventArgs e)
+        {
+            if (_Operation == ' ')
+            {
+                _Operation = 'x';
+                _Buffer = decimal.Parse(CalculatorScreen.Text);
+                CalculatorScreen.Text = "0.";
+            }
+            else
+            {
+
+                decimal currentValue = decimal.Parse(CalculatorScreen.Text);
+
+                CalculatorScreen.Text = _Operation switch
+                {
+                    '+' => (_Buffer + currentValue).ToString(),
+                    '-' => (_Buffer - currentValue).ToString(),
+                    'x' => (_Buffer * currentValue).ToString(),
+                    '/' => (_Buffer / currentValue).ToString(),
+                    _ => "0."
+                };
+
+                _Buffer = 0;
+                _Operation = ' ';
+
+            }
+        }
+
+        private void buttonSubtraction_Click(object sender, EventArgs e)
+        {
+            if (_Operation == ' ')
+            {
+                _Operation = '-';
+                _Buffer = decimal.Parse(CalculatorScreen.Text);
+                CalculatorScreen.Text = "0.";
+            }
+            else
+            {
+
+                decimal currentValue = decimal.Parse(CalculatorScreen.Text);
+
+                CalculatorScreen.Text = _Operation switch
+                {
+                    '+' => (_Buffer + currentValue).ToString(),
+                    '-' => (_Buffer - currentValue).ToString(),
+                    'x' => (_Buffer * currentValue).ToString(),
+                    '/' => (_Buffer / currentValue).ToString(),
+                    _ => "0."
+                };
+
+                _Buffer = 0;
+                _Operation = ' ';
+
+            }
+        }
+
+        private void buttonAdditionEquals_Click(object sender, EventArgs e)
         {
             if (_Operation == ' ')
             {
